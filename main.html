@@ -11,26 +11,36 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="box clear">C</div>
-        <div class="box screen"></div>
+    <div id="calculatorBody">
+        <div> <input id="C" type="button" onclick="clearAll()" value="C" />
+            <span id="answer">0</span>
+        </div>
+        <div class="row">
+            <input type="button" onclick="number('7')" value="7" />
+            <input type="button" onclick="number('8')" value="8" />
+            <input type="button" onclick="number('9')" value="9" />
+            <input class="action" type="button" onclick="operator('+')" value="+" />
+        </div>
+        <div class="row">
+            <input type="button" onclick="number('4')" value="4" />
+            <input type="button" onclick="number('5')" value="5" />
+            <input type="button" onclick="number('6')" value="6" />
+            <input class="action" type="button" onclick="operator('-')" value="-" />
+        </div>
+        <div class="row">
+            <input type="button" onclick="number('1')" value="1" />
+            <input type="button" onclick="number('2')" value="2" />
+            <input type="button" onclick="number('3')" value="3" />
+            <input class="action" type="button" onclick="operator('*')" value="*" />
+        </div>
+        <div class="row">
+            <input type="button" onclick="number('0')" value="0" />
+            <input type="button" onclick="number('.')" value="." />
+            <input id="equals" type="button" onclick="calculateQueue(queue)" value="=" />
+            <input class="action" type="button" onclick="operator('/')" value="/" />
 
-        <div class="box seven">7</div>
-        <div class="box eigth">8</div>
-        <div class="box nine">9</div>
-        <div class="box delete action">/</div>
-        <div class="box four">4</div>
-        <div class="box five">5</div>
-        <div class="box six">6</div>
-        <div class="box multiply action">x</div>
-        <div class="box one">1</div>
-        <div class="box two">2</div>
-        <div class="box three">3</div>
-        <div class="box substract action">-</div>
-        <div class="box zero">0</div>
-        <div class="box dot">.</div>
-        <div class="box equal">=</div>
-        <div class="box concat action">+</div>
+
+        </div>
     </div>
 
 </body>
