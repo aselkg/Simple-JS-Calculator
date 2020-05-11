@@ -1,5 +1,9 @@
 
- #calculatorBody{
+ h2{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+  #calculatorBody{
   width: 350px;
   background-color:	#d8d2cd;
   margin: 70px auto;
