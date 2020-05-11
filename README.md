@@ -1,4 +1,4 @@
-# Simple Java Script Calculator
+# Simple JavaScript Calculator
 
 ## Directions
 * Clone `https://github.com/aselkg/Simple-JS-Calculator.git`
